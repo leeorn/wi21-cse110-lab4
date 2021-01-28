@@ -41,4 +41,12 @@
     - H. output: NaN. It doesn't make sense to subtract undefined from a string, so the result is NaN
 
 - Question 15:
-    - A. output: 
+    - A. output: true. string '2' becomes a number 2, which yields a true boolean.
+    - B. output: false. string comparison, each index is compared, since '2' is greater than '1' the equation is false.
+    - C. output: true. the string is converted to a number.
+    - D. output: false. they are two different types which immediately returns false.
+    - E. output: false. true is the same as 1, not 2.
+    - F. output: true. 2 is converted to boolean, since it's not 0, it's true.
+
+- Question 16: the operator '===' is a strict equality operator, which means that it checks the equality without type conversion. If the types are different, then it's always false, unlike the '==' operator.
+
