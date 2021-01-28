@@ -50,3 +50,7 @@
 
 - Question 16: the operator '===' is a strict equality operator, which means that it checks the equality without type conversion. If the types are different, then it's always false, unlike the '==' operator.
 
+- Question 17: output: How are you?. Because 2 is not equal to 1 (true is converted to 1), but since 2 is not 0, the else if statment is true, so it prints its message.
+
+- 
+
