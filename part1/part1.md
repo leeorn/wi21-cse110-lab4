@@ -15,3 +15,10 @@
 
 - Question 8: The function will return similar results to part 4; an array with the prices after discount (assuming we resolve the errors from part 5&6)
 
+- Question 9: "const" is similar to "let" by the fact that the variable is defined only within the block scope. Another constrain that "const" has is the fact that one cannot re-assigning the value. Thus, the first error in the current code raises on line 7 (when re-assigning value to finalPrice). But, ignoring this part, line 11 has an error because we try to print i outside of its scope. 
+
+- Question 10: Similarly to the above question, and ignoring previous errors, line 12 raises an error because we try to print the variable outside of its scope
+
+- Question 11: finalPrice is still within its scope, so theoretically, we can print its value. However, in line 7 we try to change its value, which is not possible since it's a const. 
+
+- Question 12: Honestly, I'm not sure what to answer for this part because there's an error in line 7, we can't re-assign values to finalPrice. So if we were to ignore (comment out) that line, we would only push 0s to the array, so the return would be an array of 0s. If we don't ignore this line, then we get an error. 
