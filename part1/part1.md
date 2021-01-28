@@ -52,5 +52,11 @@
 
 - Question 17: output: How are you?. Because 2 is not equal to 1 (true is converted to 1), but since 2 is not 0, the else if statment is true, so it prints its message.
 
-- 
+- Question 18: in file "part1-question18.js"
+
+- Question 19: The result of the function with the given example would be [6,8,10]. What then happens is that we call the function 'modifyArray', which inside the for loop calls the function 'doSomething'. 'doSomething' adds 2 to each value, then we double the result and store it in the array which is later returned. Also, to verify the results I copied and ran the code locally. 
+
+- Quesstion 20: in file "part1-question20.js"
+
+- Question 21: The output would be "1; 3; 2" in that order (a new line for each number). The reason is the number 2 is waiting 1 second before printing, the rest is going by order (so print 1, wait 1 sec for 2, print 3 then 2 is printed).
 
