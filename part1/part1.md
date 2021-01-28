@@ -22,3 +22,10 @@
 - Question 11: finalPrice is still within its scope, so theoretically, we can print its value. However, in line 7 we try to change its value, which is not possible since it's a const. 
 
 - Question 12: Honestly, I'm not sure what to answer for this part because there's an error in line 7, we can't re-assign values to finalPrice. So if we were to ignore (comment out) that line, we would only push 0s to the array, so the return would be an array of 0s. If we don't ignore this line, then we get an error. 
+
+- Question 13:
+    - A. student.name
+    - B. student["Grad Year"]
+    - C. student.greeting()
+    - D. student["Favorite Teacher"].name
+    - E. student.courseLoad[0]
