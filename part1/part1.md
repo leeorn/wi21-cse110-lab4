@@ -29,3 +29,16 @@
     - C. student.greeting()
     - D. student["Favorite Teacher"].name
     - E. student.courseLoad[0]
+
+- Question 14:
+    - A. output: 32. The number 2 is cast to be a string and then concatenated with '3' to create '32'
+    - B. output: 1. the string '3' is cast to a number, thus the results is 1.
+    - C. output: 3. The null becomes 0, th us the result is 3.
+    - D. output: 3null. concatenate the string 3 and null.
+    - E. output: 4. true becomes 1, and then added to the number 3.
+    - F. output: 0. false becomes 0, null as well, so 0+0=0.
+    - G. output: 3undefined. undefined is concatenated to the string 3 to create one word.
+    - H. output: NaN. It doesn't make sense to subtract undefined from a string, so the result is NaN
+
+- Question 15:
+    - A. output: 
